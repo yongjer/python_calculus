@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-calculus_questions = [13, 23, 35, 43, 45, 53, 55,77, 79, 81, 83]
+calculus_questions = [13, 23, 35, 43, 45, 53, 55, 77, 79, 81, 83]
 input_question = input("enter the question: ")
 input_question = input_question.split(" ")
-chromedriver = "/Users/yongjer/Downloads/chromedriver"
+chromedriver = "./chromedriver"
 option = webdriver.ChromeOptions()
 option.binary_location = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
 s = Service(chromedriver)
