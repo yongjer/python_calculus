@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-input_question = input("enter the question: ")
+input_question = input("enter the question: \n")
 input_question = input_question.split(" ")
 chromedriver = "./chromedriver"
 option = webdriver.ChromeOptions()
